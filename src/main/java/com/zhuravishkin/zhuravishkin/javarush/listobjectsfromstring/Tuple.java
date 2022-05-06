@@ -1,0 +1,10 @@
+package com.zhuravishkin.zhuravishkin.javarush.listobjectsfromstring;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+public class Tuple {
+    @JsonProperty("tuple_name")
+    private String name;
+    @JsonProperty("tuple_age")
+    private int age;
+}
