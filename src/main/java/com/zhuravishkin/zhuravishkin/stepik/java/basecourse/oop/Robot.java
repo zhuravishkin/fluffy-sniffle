@@ -1,4 +1,4 @@
-package com.zhuravishkin.zhuravishkin.stepik.java.basecourse;
+package com.zhuravishkin.zhuravishkin.stepik.java.basecourse.oop;
 
 public class Robot {
     public static void main(String[] args) {

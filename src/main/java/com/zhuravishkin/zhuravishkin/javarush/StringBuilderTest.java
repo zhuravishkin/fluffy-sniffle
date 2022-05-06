@@ -1,6 +1,6 @@
 package com.zhuravishkin.zhuravishkin.javarush;
 
-public class stringbuildertest {
+public class StringBuilderTest {
     public static void main(String[] args) {
         StringBuilder builder = new StringBuilder();
         builder.append("hello");

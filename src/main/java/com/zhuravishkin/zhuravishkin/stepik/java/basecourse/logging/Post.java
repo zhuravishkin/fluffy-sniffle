@@ -1,4 +1,4 @@
-package com.zhuravishkin.zhuravishkin.stepik.java.basecourse;
+package com.zhuravishkin.zhuravishkin.stepik.java.basecourse.logging;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;

@@ -1,4 +1,4 @@
-package com.zhuravishkin.zhuravishkin.stepik.java.basecourse;
+package com.zhuravishkin.zhuravishkin.stepik.java.basecourse.arrays;
 
 import java.util.Arrays;
 
