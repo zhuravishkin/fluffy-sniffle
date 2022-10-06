@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 public class PhantomDemo {
     public static void main(String[] args) {
-        ReferenceQueue<Integer> queue = new ReferenceQueue<Integer>();
+        ReferenceQueue<Integer> queue = new ReferenceQueue<>();
 
         ArrayList<PhantomReference<Integer>> list = new ArrayList<>();
 
