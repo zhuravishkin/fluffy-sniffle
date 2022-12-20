@@ -15,5 +15,6 @@ public class Test {
         int a = 150;
         byte b = (byte) a;
         System.out.println(b);
+        System.out.println(Integer.toBinaryString(150));
     }
 }
