@@ -1,6 +1,11 @@
 package com.zhuravishkin.zhuravishkin.demo;
 
+import lombok.Data;
+
+@Data
 public class Test {
+    private String name;
+
     public static void main(String[] args) {
 //        Object[] objects = new String[2];
 //        objects[0] = "test";
