@@ -5,8 +5,6 @@ import lombok.Data;
 import java.util.ArrayList;
 import java.util.List;
 
-import static java.lang.System.out;
-
 @Data
 public class Test {
     private String name;
@@ -31,6 +29,6 @@ public class Test {
 //        out.println("hello");
 //        throw runtimeException;
 
-        List<int[]> list =new ArrayList<>();
+        List<int[]> list = new ArrayList<>();
     }
 }
