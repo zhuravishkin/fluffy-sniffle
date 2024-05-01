@@ -1,4 +1,4 @@
-package com.zhuravishkin.zhuravishkin.demo.thread;
+package com.zhuravishkin.zhuravishkin.demo.concurrency;
 
 import java.util.Date;
 import java.util.concurrent.CompletableFuture;
