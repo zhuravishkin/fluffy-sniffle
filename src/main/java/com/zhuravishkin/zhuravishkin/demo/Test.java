@@ -8,6 +8,7 @@ import java.util.List;
 @Data
 public class Test {
     private String name;
+    Object object;
 
     public static void main(String[] args) {
 //        Object[] objects = new String[2];
