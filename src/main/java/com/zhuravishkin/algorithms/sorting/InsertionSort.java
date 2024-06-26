@@ -1,4 +1,4 @@
-package com.zhuravishkin.algorithms;
+package com.zhuravishkin.algorithms.sorting;
 
 import java.util.Arrays;
 

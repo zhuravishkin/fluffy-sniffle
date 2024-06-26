@@ -1,4 +1,4 @@
-package com.zhuravishkin.algorithms;
+package com.zhuravishkin.algorithms.sorting;
 
 public class BinarySearchExample {
     public static void main(String[] args) {
