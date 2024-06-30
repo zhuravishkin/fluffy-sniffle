@@ -45,7 +45,7 @@ public class Node {
 
             System.out.println(node.value);
 
-            summ = summ + node.value;
+            summ += node.value;
 
             if (node.right != null) {
                 stack.push(node.right);
