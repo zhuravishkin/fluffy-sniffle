@@ -7,9 +7,7 @@ public class InsertionSort {
         int[] array = {64, 34, 25, 12, 22, 11, 90};
         insertionSort(array);
         System.out.println("Отсортированный массив:");
-        for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i] + " ");
-        }
+        System.out.println(Arrays.toString(array));
     }
 
 //    public static void insertionSort(int[] array) {
@@ -29,15 +27,14 @@ public class InsertionSort {
 //    }
 
     public static void insertionSort(int[] array) {
-        int n = array.length;
-        for (int i = 1; i < n; i++) {
-            int key = array[i];
+        for (int i = 1; i < array.length; i++) {
+            int current = array[i];
             int j = i;
-            while (j > 0 && array[j - 1] > key) {
+            while (j > 0 && array[j - 1] > current) {
                 array[j] = array[j - 1];
                 j--;
             }
-            array[j] = key;
+            array[j] = current;
             System.out.println(Arrays.toString(array));
         }
     }

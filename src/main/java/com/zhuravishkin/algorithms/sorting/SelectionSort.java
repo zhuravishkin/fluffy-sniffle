@@ -1,13 +1,13 @@
 package com.zhuravishkin.algorithms.sorting;
 
+import java.util.Arrays;
+
 public class SelectionSort {
     public static void main(String[] args) {
-        int[] array = {64, 34, 25, 12, 22, 11, 90};
+        int[] array = {64, 34, 25, 12, 22, 90, 11};
         selectionSort(array);
         System.out.println("Отсортированный массив:");
-        for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i] + " ");
-        }
+        System.out.println(Arrays.toString(array));
     }
 
     public static void selectionSort(int[] array) {

@@ -8,9 +8,7 @@ public class QuickSort {
 //        int[] array = {10, 34, 9, 12, 13, 14, 15};
         quickSort(array, 0, array.length - 1);
         System.out.println("Отсортированный массив:");
-        for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i] + " ");
-        }
+        System.out.println(Arrays.toString(array));
     }
 
     public static void quickSort(int[] array, int left, int right) {

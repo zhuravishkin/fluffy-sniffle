@@ -7,9 +7,7 @@ public class BubbleSort {
         int[] array = {64, 34, 25, 12, 22, 11, 90};
         bubbleSort(array);
         System.out.println("Отсортированный массив:");
-        for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i] + " ");
-        }
+        System.out.println(Arrays.toString(array));
     }
 
 //    public static void bubbleSort(int[] array) {
@@ -32,11 +30,10 @@ public class BubbleSort {
 //    }
 
     public static void bubbleSort(int[] array) {
-        int n = array.length;
         boolean swapped = false;
         while (!swapped) {
             swapped = true;
-            for (int j = 0; j < n - 1; j++) {
+            for (int j = 0; j < array.length - 1; j++) {
                 if (array[j] > array[j + 1]) {
                     int temp = array[j];
                     array[j] = array[j + 1];
