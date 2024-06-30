@@ -28,6 +28,10 @@ public class SumSheetsGraph {
         System.out.println(node.value);
         int sum = 0;
 
+        if (node == null) {
+            return sum;
+        }
+
         if (node.left == null && node.right == null) {
             System.out.println("sheet: " + node.value);
             return node.value;

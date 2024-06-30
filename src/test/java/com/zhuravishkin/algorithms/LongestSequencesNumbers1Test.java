@@ -8,26 +8,26 @@ class LongestSequencesNumbers1Test {
 
     @Test
     void run1() {
-        assertEquals(LongestSequencesNumbers1.run(new int[]{1, 1, 0, 0, 1, 1, 0}), 2);
+        assertEquals(2, LongestSequencesNumbers1.run(new int[]{1, 1, 0, 0, 1, 1, 0}));
     }
 
     @Test
     void run2() {
-        assertEquals(LongestSequencesNumbers1.run(new int[]{1, 1, 0, 0, 1, 1, 1}), 3);
+        assertEquals(3, LongestSequencesNumbers1.run(new int[]{1, 1, 0, 0, 1, 1, 1}));
     }
 
     @Test
     void run3() {
-        assertEquals(LongestSequencesNumbers1.run(new int[]{1, 1, 1, 1, 1}), 5);
+        assertEquals(5, LongestSequencesNumbers1.run(new int[]{1, 1, 1, 1, 1}));
     }
 
     @Test
     void run4() {
-        assertEquals(LongestSequencesNumbers1.run(new int[]{0, 0, 0, 0, 0}), 0);
+        assertEquals(0, LongestSequencesNumbers1.run(new int[]{0, 0, 0, 0, 0}));
     }
 
     @Test
     void run5() {
-        assertEquals(LongestSequencesNumbers1.run(new int[]{}), 0);
+        assertEquals(0, LongestSequencesNumbers1.run(new int[]{}));
     }
 }
